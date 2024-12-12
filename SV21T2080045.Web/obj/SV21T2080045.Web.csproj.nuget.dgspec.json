@@ -1,0 +1,292 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\VisualStudio\\src\\SV21T1080045\\SV21T2080045.Web\\SV21T2080045.Web.csproj": {}
+  },
+  "projects": {
+    "D:\\VisualStudio\\src\\SV21T1080045\\21T1080045.BusinessLayers\\21T1080045.BusinessLayers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VisualStudio\\src\\SV21T1080045\\21T1080045.BusinessLayers\\21T1080045.BusinessLayers.csproj",
+        "projectName": "21T1080045.BusinessLayers",
+        "projectPath": "D:\\VisualStudio\\src\\SV21T1080045\\21T1080045.BusinessLayers\\21T1080045.BusinessLayers.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudio\\src\\SV21T1080045\\21T1080045.BusinessLayers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\VisualStudio\\src\\SV21T1080045\\21T1080045.DataLayers\\21T1080045.DataLayers.csproj": {
+                "projectPath": "D:\\VisualStudio\\src\\SV21T1080045\\21T1080045.DataLayers\\21T1080045.DataLayers.csproj"
+              },
+              "D:\\VisualStudio\\src\\SV21T1080045\\21T1080045.DomainModels\\21T1080045.DomainModels.csproj": {
+                "projectPath": "D:\\VisualStudio\\src\\SV21T1080045\\21T1080045.DomainModels\\21T1080045.DomainModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VisualStudio\\src\\SV21T1080045\\21T1080045.DataLayers\\21T1080045.DataLayers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VisualStudio\\src\\SV21T1080045\\21T1080045.DataLayers\\21T1080045.DataLayers.csproj",
+        "projectName": "21T1080045.DataLayers",
+        "projectPath": "D:\\VisualStudio\\src\\SV21T1080045\\21T1080045.DataLayers\\21T1080045.DataLayers.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudio\\src\\SV21T1080045\\21T1080045.DataLayers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\VisualStudio\\src\\SV21T1080045\\21T1080045.DomainModels\\21T1080045.DomainModels.csproj": {
+                "projectPath": "D:\\VisualStudio\\src\\SV21T1080045\\21T1080045.DomainModels\\21T1080045.DomainModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VisualStudio\\src\\SV21T1080045\\21T1080045.DomainModels\\21T1080045.DomainModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VisualStudio\\src\\SV21T1080045\\21T1080045.DomainModels\\21T1080045.DomainModels.csproj",
+        "projectName": "21T1080045.DomainModels",
+        "projectPath": "D:\\VisualStudio\\src\\SV21T1080045\\21T1080045.DomainModels\\21T1080045.DomainModels.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudio\\src\\SV21T1080045\\21T1080045.DomainModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VisualStudio\\src\\SV21T1080045\\SV21T2080045.Web\\SV21T2080045.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VisualStudio\\src\\SV21T1080045\\SV21T2080045.Web\\SV21T2080045.Web.csproj",
+        "projectName": "SV21T2080045.Web",
+        "projectPath": "D:\\VisualStudio\\src\\SV21T1080045\\SV21T2080045.Web\\SV21T2080045.Web.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudio\\src\\SV21T1080045\\SV21T2080045.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\VisualStudio\\src\\SV21T1080045\\21T1080045.BusinessLayers\\21T1080045.BusinessLayers.csproj": {
+                "projectPath": "D:\\VisualStudio\\src\\SV21T1080045\\21T1080045.BusinessLayers\\21T1080045.BusinessLayers.csproj"
+              },
+              "D:\\VisualStudio\\src\\SV21T1080045\\21T1080045.DataLayers\\21T1080045.DataLayers.csproj": {
+                "projectPath": "D:\\VisualStudio\\src\\SV21T1080045\\21T1080045.DataLayers\\21T1080045.DataLayers.csproj"
+              },
+              "D:\\VisualStudio\\src\\SV21T1080045\\21T1080045.DomainModels\\21T1080045.DomainModels.csproj": {
+                "projectPath": "D:\\VisualStudio\\src\\SV21T1080045\\21T1080045.DomainModels\\21T1080045.DomainModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

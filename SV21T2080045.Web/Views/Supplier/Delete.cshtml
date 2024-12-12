@@ -1,0 +1,47 @@
+﻿@model Supplier
+@{
+    ViewBag.Title = "Xóa nhà cung cấp";
+}
+<div class="box box-danger">
+    <div class="box-body">
+        <form action="~/Supplier/Delete/@Model.SupplierID" method="post">
+            <div class="form-group">
+                <label>Supplier Name</label>
+                <p type="text" class="form-control-static">@Model.SupplierName</p>
+            </div>
+            <div class="form-group">
+                <label>Contact Name</label>
+                <p type="text" class="form-control-static">@Model.ContactName</p>
+            </div>
+            <div class="form-group">
+                <label>Province</label>
+                <p type="text" class="form-control-static">@Model.Province</p>
+            </div>
+            <div class="form-group">
+                <label>Address</label>
+                <p type="text" class="form-control-static">@Model.Address</p>
+            </div>
+            <div class="form-group">
+                <label>Phone</label>
+                <p type="text" class="form-control-static">@Model.Phone</p>
+            </div> 
+            <div class="form-group">
+                <label>Email</label>
+                <p type="text" class="form-control-static">@Model.Email</p>
+            </div>
+
+           
+            <div class="form-group text-right">
+                @if(_21T1080045.BusinessLayers.CommonDataService.InUsedSupplier(Model.SupplierID) == false)
+                {
+                    <button type="submit" class="btn btn-danger"><i class="fa fa-trassh"></i>Xác nhận xóa</button>
+                    
+                }
+                <a href="~/Supplier" class="btn btn-default">Quay Lại</a>
+            </div>
+        </form>
+
+    </div>
+
+</div>
+

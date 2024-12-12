@@ -1,0 +1,27 @@
+﻿@model Shipper
+@{
+}
+<div class="box box-primary">
+    <div class="box-body">
+        <form action="~/Shipper/Save" method="post">
+            <input type="hidden" name="@nameof(Model.ShipperID)" value="@Model.ShipperID" />
+            <div class="form-group">
+                <label>Shipper Name</label>
+                <input type="text" class="form-control" name="@nameof(Model.ShipperName)" value="@Model.ShipperName">
+                @Html.ValidationMessage(nameof(Model.ShipperName))
+            </div>
+            <div class="form-group">
+                <label>Phone</label>
+                <input type="text" class="form-control" name="@nameof(Model.Phone)" value="@Model.Phone">
+                @Html.ValidationMessage(nameof(Model.Phone))
+            </div>
+
+            <div class="form-group text-right">
+                <button type="submit" class="btn btn-default"><i class="fa fa-floppy-o"></i>Lưu Dữ Liệu</button>
+                <a href="~/Shipper" class="btn btn-default">Quay Lại</a>
+            </div>
+        </form>
+
+    </div>
+
+</div>

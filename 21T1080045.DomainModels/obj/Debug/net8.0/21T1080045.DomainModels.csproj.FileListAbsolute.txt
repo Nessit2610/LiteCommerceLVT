@@ -1,0 +1,11 @@
+D:\VisualStudio\src\SV21T1080045\21T1080045.DomainModels\bin\Debug\net8.0\21T1080045.DomainModels.deps.json
+D:\VisualStudio\src\SV21T1080045\21T1080045.DomainModels\bin\Debug\net8.0\21T1080045.DomainModels.dll
+D:\VisualStudio\src\SV21T1080045\21T1080045.DomainModels\bin\Debug\net8.0\21T1080045.DomainModels.pdb
+D:\VisualStudio\src\SV21T1080045\21T1080045.DomainModels\obj\Debug\net8.0\21T1080045.DomainModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio\src\SV21T1080045\21T1080045.DomainModels\obj\Debug\net8.0\21T1080045.DomainModels.AssemblyInfoInputs.cache
+D:\VisualStudio\src\SV21T1080045\21T1080045.DomainModels\obj\Debug\net8.0\21T1080045.DomainModels.AssemblyInfo.cs
+D:\VisualStudio\src\SV21T1080045\21T1080045.DomainModels\obj\Debug\net8.0\21T1080045.DomainModels.csproj.CoreCompileInputs.cache
+D:\VisualStudio\src\SV21T1080045\21T1080045.DomainModels\obj\Debug\net8.0\21T1080045.DomainModels.dll
+D:\VisualStudio\src\SV21T1080045\21T1080045.DomainModels\obj\Debug\net8.0\refint\21T1080045.DomainModels.dll
+D:\VisualStudio\src\SV21T1080045\21T1080045.DomainModels\obj\Debug\net8.0\21T1080045.DomainModels.pdb
+D:\VisualStudio\src\SV21T1080045\21T1080045.DomainModels\obj\Debug\net8.0\ref\21T1080045.DomainModels.dll

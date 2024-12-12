@@ -1,0 +1,61 @@
+﻿@model SupplierSearchResult
+@{
+    Layout = null;
+}
+<p style="margin: 10px 0px 10px 0px">
+    Có <b>@Model.RowCount</b> nhà cung cấp trong tổng số <b>@Model.PageCount</b> trang.
+</p>
+<div class="table-responsive">
+    <table class="table table-bordered table-striped table-hover">
+        <thead>
+            <tr class="bg-primary">
+                <th>Supplier Name</th>
+                <th>Contact Name</th>
+                <th>Province</th>
+                <th>Address</th>
+                <th>Phone</th>
+                <th>Email</th>
+                <th style="width:80px"></th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Data)
+            {
+                <tr>
+                    <td>@item.SupplierName</td>
+                    <td>@item.ContactName</td>
+                    <td>@item.Province</td>
+                    <td>@item.Address</td>
+                    <td>@item.Phone</td>
+                    <td>@item.Email</td>
+                    <td>
+                        <a href="~/Supplier/Edit/@item.SupplierID" class="btn btn-xs btn-info">
+                            <i class="fa fa-edit"></i>
+                        </a>
+                        <a href="~/Supplier/Delete/@item.SupplierID" class="btn btn-xs btn-danger">
+                            <i class="fa fa-trash"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+</div>
+<div class="text-center">
+    <ul class="pagination">
+        @for (int p = 1; p <= Model.PageCount; p++)
+        {
+            if (p == Model.Page)
+            {
+                <li class="active"><a href="#">@p</a></li>
+            }
+            else
+            {
+                <li><a href="javascript:;" onclick="doSearch(@p)" >@p</a></li>
+            }
+        }
+    </ul>
+</div>
+

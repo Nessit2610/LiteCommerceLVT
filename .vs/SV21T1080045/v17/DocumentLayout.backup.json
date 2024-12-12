@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VisualStudio\\src\\SV21T1080045\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{175B34B0-49EF-4466-86B1-7848CB24CF08}|SV21T2080045.Web\\SV21T2080045.Web.csproj|d:\\visualstudio\\src\\sv21t1080045\\sv21t2080045.web\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{175B34B0-49EF-4466-86B1-7848CB24CF08}|SV21T2080045.Web\\SV21T2080045.Web.csproj|solutionrelative:sv21t2080045.web\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6913C76C-080A-406E-BCDB-97134EB0E1A0}|21T1080045.DomainModels\\21T1080045.DomainModels.csproj|d:\\visualstudio\\src\\sv21t1080045\\21t1080045.domainmodels\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6913C76C-080A-406E-BCDB-97134EB0E1A0}|21T1080045.DomainModels\\21T1080045.DomainModels.csproj|solutionrelative:21t1080045.domainmodels\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175B34B0-49EF-4466-86B1-7848CB24CF08}|SV21T2080045.Web\\SV21T2080045.Web.csproj|d:\\visualstudio\\src\\sv21t1080045\\sv21t2080045.web\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{175B34B0-49EF-4466-86B1-7848CB24CF08}|SV21T2080045.Web\\SV21T2080045.Web.csproj|solutionrelative:sv21t2080045.web\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 472,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\src\\SV21T1080045\\SV21T2080045.Web\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "SV21T2080045.Web\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\VisualStudio\\src\\SV21T1080045\\SV21T2080045.Web\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "SV21T2080045.Web\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAPkAAAAAAAAAAAAgwKkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T06:53:12.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\src\\SV21T1080045\\21T1080045.DomainModels\\Constants.cs",
+              "RelativeDocumentMoniker": "21T1080045.DomainModels\\Constants.cs",
+              "ToolTip": "D:\\VisualStudio\\src\\SV21T1080045\\21T1080045.DomainModels\\Constants.cs",
+              "RelativeToolTip": "21T1080045.DomainModels\\Constants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T06:45:07.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\VisualStudio\\src\\SV21T1080045\\SV21T2080045.Web\\Views\\Order\\Details.cshtml",
+              "RelativeDocumentMoniker": "SV21T2080045.Web\\Views\\Order\\Details.cshtml",
+              "ToolTip": "D:\\VisualStudio\\src\\SV21T1080045\\SV21T2080045.Web\\Views\\Order\\Details.cshtml",
+              "RelativeToolTip": "SV21T2080045.Web\\Views\\Order\\Details.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T06:43:21.626Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
